@@ -1,0 +1,20 @@
+{
+  "name": "z80-assembler-ti83plus",
+  "version": "1.0.0",
+  "description": "Z80 Assembler for TI-83 Plus calculator programs",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "z80asm": "./z80asm.js"
+  },
+  "scripts": {
+    "test": "bun test",
+    "assemble": "bun z80asm.js"
+  },
+  "keywords": ["z80", "assembler", "ti-83", "calculator", "assembly"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}

@@ -1,0 +1,36 @@
+# Rust build artifacts
+rust-assembler/target/
+rust-assembler/Cargo.lock
+
+# JavaScript/Bun artifacts
+js-assembler/node_modules/
+js-assembler/bun.lockb
+*.log
+
+# Test output files
+*.8xp
+!examples/*.8xp
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup/temporary files
+*.bak
+*.tmp
+.env
+
+# Debug artifacts
+*.pdb
+
+# Claude-specific files
+CLAUDE.md
+.claude/

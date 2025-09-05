@@ -1,0 +1,19 @@
+[package]
+name = "z80asm"
+version = "0.1.0"
+edition = "2021"
+authors = ["Z80 Assembler Contributors"]
+description = "Z80 assembler for TI-83 Plus calculator programs"
+license = "MIT"
+
+[[bin]]
+name = "z80asm"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+anyhow = "1.0"
+phf = { version = "0.11", features = ["macros"] }
+
+[dev-dependencies]
+pretty_assertions = "1.4"
